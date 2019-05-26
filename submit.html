@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<?php
+$answer1 = $_GET['ques1'];
+$answer2 = $_GET['ques2'];
+$answer3 = $_GET['ques3'];
+$answer4 = $_GET['ques4'];
+$answer5 = $_GET['ques5'];
+$answer6 = $_GET['ques6'];
+$answer7 = $_GET['ques7'];
+$answer8 = $_GET['ques8'];
+$answer9 = $_GET['ques9'];
+$answer10 = $_GET['ques10'];
+
+$total=0;
+if ($answer1 == "Converts a string into arrays") {$total++;}
+if ($answer2 == "Both A and C") {$total++;}
+if ($answer3 == "Both A and B") {$total++;}
+if ($answer4 == "Both A and C") {$total++;}
+if ($answer5 == "Values") {$total++;}
+if ($answer6 == "They call special functions that return values of the resource type") {$total++;}
+if ($answer7 == "8") {$total++;}
+if ($answer8 == "Float") {$total++;}
+if ($answer9 == "All of them") {$total++;}
+if ($answer10 == "Void") {$total++;}
+
+echo "$total / 10 correct";
+?>
+</body>
+</html>

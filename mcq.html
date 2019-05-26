@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+</style>
+</head>
+<body>
+<ul>
+  <li><a class="active" href="Assignment1.html">Home</a></li>
+  <li><a href="abot.html">About Me</a></li>
+  <li><a href="php.html">PHP</a></li>
+  <li><a href="mcq.html">MCQs</a></li>
+</ul>
+<form action="submit.php" method="get" id="quiz" name="this">
+	Q.1 What does explode() function do?
+		<br><br>
+		<input type="radio" name="ques1" value="Converts a string into integers" >Converts a string into integers
+		<br><br>
+		<input type="radio"name="ques1" value="Converts a string into arrays">Converts a string into arrays
+		<br><br>
+        <input type="radio"name="ques1" value="Finds the length of array">Finds the length of array
+		<br><br>
+		<input type="radio"name="ques1" value="Finds the length of string">Finds the length of string
+		<br><br>
+	Q.2 Functions that returns a new array without disturbing their old arguments might be called as	
+	    <br><br>
+		<input type="radio" name="ques2" value="Destructive function" >Destructive function
+		<br><br>
+		<input type="radio"name="ques2" value="Constructive function">Constructive function
+		<br><br>
+        <input type="radio"name="ques2" value="Nondestructive function">Nondestructive function
+		<br><br>
+		<input type="radio"name="ques2" value="Both A and C">Both A and C
+		<br><br>
+    Q.3 Compact ( ) function is used to create an array from
+		<br><br>
+		<input type="radio" name="ques3" value="Variables" >Variables
+		<br><br>
+		<input type="radio"name="ques3" value="Values">Values
+		<br><br>
+        <input type="radio"name="ques3" value="Functions">Functions
+		<br><br>
+		<input type="radio"name="ques3" value="Both A and B">Both A and B
+		<br><br>
+	Q.4 Which of them is an abstract data structure (ADT)?
+	<br><br>
+		<input type="radio" name="ques4" value="Stacks">Stacks
+		<br><br>
+		<input type="radio"name="ques4" value="Functions">Functions
+		<br><br>
+        <input type="radio"name="ques4" value="Queues">Queues
+		<br><br>
+		<input type="radio"name="ques4" value="Both A and C">Both A and C
+		<br><br>	
+	Q.5	Array_flip ( ) function changes keys of an array into
+	<br><br>
+		<input type="radio" name="ques5" value="Integers">Integers
+		<br><br>
+		<input type="radio"name="ques5" value="Characters">Characters
+		<br><br>
+        <input type="radio"name="ques5" value="Boolean">Boolean
+		<br><br>
+		<input type="radio"name="ques5" value="Values">Values
+		<br><br>
+	Q.6 How resources are created in PHP?
+	<br><br>
+		<input type="radio" name="ques6" value="They are created by themselves" >They are created by themselves
+		<br><br>
+		<input type="radio"name="ques6" value="They call special functions that return values of the resource type">They call special functions that return values of the resource type
+		<br><br>
+        <input type="radio"name="ques6" value="They are defined in a script">They are defined in a script
+		<br><br>
+		<input type="radio"name="ques6" value="None of them">None of them
+		<br><br>
+	Q.7	How many basic data types are offered by PHP?
+	<br><br>
+		<input type="radio" name="ques7" value="5" >5
+		<br><br>
+		<input type="radio"name="ques7" value="6">6
+		<br><br>
+        <input type="radio"name="ques7" value="7">7
+		<br><br>
+		<input type="radio"name="ques7" value="8">8
+		<br><br>
+	Q.8	Floatval ( ) function will convert your argument in
+	<br><br>
+		<input type="radio" name="ques8" value="Integer" >Integer
+		<br><br>
+		<input type="radio"name="ques8" value="String">String
+		<br><br>
+        <input type="radio"name="ques8" value="Float">Float
+		<br><br>
+		<input type="radio"name="ques8" value="None of them">None of them
+		<br><br>
+    Q.9	Which of following type conversion behavior is offered by PHP?
+	<br><br>
+		<input type="radio" name="ques9" value="Array to boolean">Array to boolean
+		<br><br>
+		<input type="radio"name="ques9" value="Null to number">Null to number
+		<br><br>
+        <input type="radio"name="ques9" value="Resource to string">Resource to string
+		<br><br>
+		<input type="radio"name="ques9" value="All of them">All of them
+		<br><br>
+	Q.10 Which one is not a data type in PHP?
+	<br><br>
+		<input type="radio" name="ques10" value="Resources">Resources
+		<br><br>
+		<input type="radio"name="ques10" value="Null">Null
+		<br><br>
+        <input type="radio"name="ques10" value="Objects">Objects
+		<br><br>
+		<input type="radio"name="ques10" value="Void">Void
+		<br><br>
+		<center>
+<input type="submit"value="Grade Me"onClick="getScore(this.form);">
+
+<input type="reset" value="Clear">
+  </center>
+
+		</form>
+</body>
+</html>
